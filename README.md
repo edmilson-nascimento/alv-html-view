@@ -19,7 +19,6 @@ Ao concluir o projeto, espera-se que os dados sejam exibidos em um formato HTML 
 
 ## Código de Exemplo
 ```abap
-// filepath: /C:/Users/EdmilsonNascimentoJe/OneDrive - GFI/Documents/GitHub/alv-html-view/exemplo.abap
 cl_demo_output=>begin_section(
     title = 'BEFORE'
 ).
@@ -46,3 +45,5 @@ cl_demo_output=>end_section( ).
 cl_demo_output=>next_section( title = 'DOWNLOAD MORE RAM!' ).
 cl_demo_output=>end_section( ).
 cl_demo_output=>display( ).
+
+
