@@ -7,6 +7,7 @@ Exibição de HTML para ALV Report
 [![GitHub license](https://img.shields.io/github/license/edmilson-nascimento/alv-html-view)](https://github.com/edmilson-nascimento/alv-html-view/blob/main/LICENSE)
 ![SAP](https://img.shields.io/badge/SAP-000000?style=flat&logo=sap&logoColor=white)
 ![ABAP](https://img.shields.io/badge/ABAP-0A9EDC?style=flat&logo=sap&logoColor=white)
+![GitHub commits](https://img.shields.io/github/commit-activity/m/edmilson-nascimento/alv-html-view)
 
 ## Objetivo
 Este repositório tem como objetivo criar um modelo em linguagem SAP ABAP para exibição de dados em formato HTML para relatórios ALV.
