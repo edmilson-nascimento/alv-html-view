@@ -16,7 +16,7 @@ Este repositório tem como objetivo criar um modelo em linguagem SAP ABAP para e
 - SAP ABAP
 
 ## Resultado Final
-Ao concluir o projeto, espera-se que os dados sejam exibidos em um formato HTML amigável para relatórios ALV.
+Ao concluir o projeto, espera-se que os dados sejam exibidos em um formato HTML amigável para relatórios ALV. A exibição pode contemplar blocos diferentes.
 
 ## Código de Exemplo
 ```abap
@@ -46,5 +46,3 @@ cl_demo_output=>end_section( ).
 cl_demo_output=>next_section( title = 'DOWNLOAD MORE RAM!' ).
 cl_demo_output=>end_section( ).
 cl_demo_output=>display( ).
-
-
