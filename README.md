@@ -46,3 +46,29 @@ cl_demo_output=>end_section( ).
 cl_demo_output=>next_section( title = 'DOWNLOAD MORE RAM!' ).
 cl_demo_output=>end_section( ).
 cl_demo_output=>display( ).
+
+```
+
+```mermaid
+ classDiagram
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+       }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }  
+```
